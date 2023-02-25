@@ -1,0 +1,108 @@
+
+ul{
+    padding-top: 0%;
+    padding:3px;
+    list-style: none;
+    background:silver;
+
+}
+li{
+    padding-left: 0px;
+    display: inline-block;
+    position: relative;
+    line-height: 15px;
+    text-align:center;
+    padding-left:80px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+ul li a{
+    font-family: sans-serif;
+    display: block;
+    padding: 8px 25px;
+    color:darkgreen;
+    text-decoration: none;
+    
+    
+    
+
+}
+
+ul li a:hover{
+    color: black;
+    background:green;
+}
+.dropdown {
+    display: none;
+}
+
+ul li a:hover{
+    color: black;
+    background: #43b02a;
+}
+
+ul li ul.dropdown{
+    min-width: 150%; /* Set width of the dropdown */
+    
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    text-align: center;
+    padding-right: 20px;
+    
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown1{
+    min-width: 120%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+   text-align: center;
+
+    z-index: 0;
+    left: 0;
+    text-align:"center";
+}
+ul li:hover ul.dropdown1{
+    display: inline-block;	/* Display the dropdown */
+ 
+    padding-right:70px ;
+}
+ul li ul.dropdown1 li{
+    display: block;
+    text-align: center;
+   }
+
+   ul li ul.dropdown2{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+   text-align: center;
+
+    z-index: 99;
+    left: 0;
+    text-align:"center";
+}
+ul li:hover ul.dropdown2{
+    display: block;	/* Display the dropdown */
+    padding-right:0px ;
+    text-align: center;
+}
+ul li ul.dropdown2 li{
+    display:block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+   }
